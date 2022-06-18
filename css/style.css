@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    
+}
+.navigation-bar{
+    width: 100%;
+    height: 70px;
+    background: #4c4c4c;
+
+}
+.logo{
+    width: 180px;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    margin-top: 10px;
+}
+.search-area{
+    width: 600px;
+    height: 70px;
+    margin-left: 50px;
+    float:left;
+}
+.search_box{
+    width: 500px;
+    padding: 9.5px;
+    margin-top: 10px;
+    float:left;
+}
+.search_btn{
+    float:left;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4%;
+    
+}
+ul.list{
+    height: 250px;
+}
+
+ul.list li{
+ list-style: none;
+  float: left;
+  width: 125px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+ul.list li :hover{
+    background: #14ba15;
+
+}
+ul.list li a{
+    text-decoration:none;
+    color: white;
+    /* background-color: #8dcba4;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
+    padding: 10px 0;
+    margin-top: 13px;
+    text-align: center;
+    height: 41px;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 122px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: inherit;
+    border: none; */
+    
+}
+.user-menu button{
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+ /* for slider area */
+ .slider-area{
+     width:100%;
+     height: 550px;
+ }
+ .slider-area .slider img{
+     width:100%;
+     height: 550px;
+ }
+
+ .bx-wrapper {
+
+    border: 1px solid rgb(141, 172, 197); 
+}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+
+ bottom: 10px !important;
+}
+/* this is for slider content */
+
+.slider-content{
+    position: absolute;
+    top: 150px; 
+    left: 100px;
+    width: 600px;
+    /* line-height: 50px; */
+}
+ 
+  /* R.O purifier section */
+.product-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 10px;
+    margin: 15px 0;
+}
+.section-heading{
+    width: 100%;
+    height: 40px;
+}
+.section-heading .heading{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    color: rgb(22, 24, 24);
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+.section-product-cards{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+   /* for every single product box */
+ .product-card{
+    width: 250px;
+    height: 420px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.product-card .product-image img{
+    width: 100%;
+    height: 300px;
+}
+  .card-contents{
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    top: -400px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    visibility: hidden; 
+    transition: .2s all ease-in-out; 
+}  
+.product-card:hover .card-contents{
+    visibility: visible;
+    top: 0;
+} 
+.cart-btn{
+    margin: 130px 100px;
+}
+.product-details{
+    padding: 10px;
+}
+.product-name{
+    font-weight: 400;
+    color: #525260;
+}
+.product-price{
+    font-weight: bold;
+    font-size: 17px;
+}
+.product-price span{
+    margin-left: 20px;
+}
+.section-product-cards
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background:greenyellow;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    outline: none;
+}
+.section-product-cards
+.owl-carousel .owl-nav button.owl-next{
+    right : 0;
+    top: 150px;
+}
+.section-product-cards
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+    top: 150px;
+}  
+
+/* tryiiig */
+.option {
+    background: #efefef;
+    padding: 1em 0px;
+    border-bottom: 3px solid #d0d0d0;
+}
+.options-main{
+    display: flex;
+    flex-direction:row;
+}
+.option-one {
+   float: left;
+    text-align: center;
+}
+
+.option-one span.op-one {
+    background-position: 0px 0px;
+}
+.option-one span {
+    width: 37px; 
+    height: 37px;
+    display: block;
+    margin: 0 auto;
+}
+.F25 {
+    font-size: 23px;
+    margin-top: 15px;
+    
+}
+.F25 a{
+    color: #14ba15;
+}
+.option-one {
+    text-align: center;
+}
+.col-md-3{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.grid-content{
+    display: flex;
+    flex-direction:row;
+}
+
+/* ionizer section */
+.ionizer-product-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 10px;
+    margin: 15px 0;
+}
+.ionizer-section-heading{   
+    width: 100%;
+    height: 40px;
+}
+.ionizer-section-heading .heading1{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    color: rgb(22, 24, 24);
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+.ionizer-section-product-cards{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+   /* for every single product box */
+ .ionizer-product-card{
+    width: 250px;
+    height: 420px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.ionizer-product-card .ionizer-product-image img{
+    width: 100%;
+    height: 300px;
+}
+.ionizer-card-contents{
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    top: -400px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    visibility: hidden; 
+    transition: .2s all ease-in-out; 
+}  
+.ionizer-product-card:hover .ionizer-card-contents{
+    visibility: visible;
+    top: 0;
+} 
+.cart-btn1{
+    margin: 130px 100px;
+}
+.ionizer-product-details{
+    padding: 10px;
+}
+.ionizer-product-name{
+    font-weight: 400;
+    color: #525260;
+}
+.ionizer-product-price{
+    font-weight: bold;
+    font-size: 17px;
+}
+.ionizer-product-price span{
+    margin-left: 20px;
+}
+
+.ionizer-section-product-cards
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background:greenyellow;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    outline: none;
+}
+.ionizer-section-product-cards
+.owl-carousel .owl-nav button.owl-next{
+    right : 0;
+    top: 150px;
+}
+.ionizer-section-product-cards
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+    top: 150px;
+} 
+/* ionizer section */
+/* Special Price section */
+.heading2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    color: rgb(22, 24, 24);
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+/* Special Price section */
+
+
+
+/* for banner ad section */
+ 
+.container1{
+    display: flex;
+    height:400px;
+    width: 700px;
+
+ }
+ .container1 img{
+    margin-top:-100px;
+     margin: 50px;
+    
+ }
+
+
+ /* special price section   */
+.grid{
+    display: flex;
+    flex-direction:row;
+}
+ /* special price section   */
+ 
+
+/* ionizer section */
+.tools-product-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 10px;
+    margin: 15px 0;
+}
+.tools-section-heading{   
+    width: 100%;
+    height: 40px;
+}
+.tools-section-heading .heading2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    color: rgb(22, 24, 24);
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+.tools-section-product-cards{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+   /* for every single product box */
+ .tools-product-card{
+    width: 250px;
+    height: 420px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.tools-product-card .tools-product-image img{
+    width: 100%;
+    height: 300px;
+}
+.tools-card-contents{
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    top: -400px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    visibility: hidden; 
+    transition: .2s all ease-in-out; 
+}  
+.tools-product-card:hover .tools-card-contents{
+    visibility: visible;
+    top: 0;
+} 
+.cart-btn1{
+    margin: 130px 100px;
+}
+.tools-product-details{
+    padding: 10px;
+}
+.tools-product-name{
+    font-weight: 400;
+    color: #525260;
+}
+.tools-product-price{
+    font-weight: bold;
+    font-size: 17px;
+}
+.tools-product-price span{
+    margin-left: 20px;
+}
+
+.tools-section-product-cards
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background:greenyellow;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    outline: none;
+}
+.tools-section-product-cards
+.owl-carousel .owl-nav button.owl-next{
+    right : 0;
+    top: 150px;
+}
+.tools-section-product-cards
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+    top: 150px;
+} 
+/* tools-section */
